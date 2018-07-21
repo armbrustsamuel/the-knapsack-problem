@@ -1,3 +1,5 @@
+# fitness score = (number of char correct) / (total number of char)
+
 def fitness (password, test_word):
 
 	if (len(test_word) != len(password)):
